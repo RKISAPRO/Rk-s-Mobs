@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "rks_mobs:purple_crystal"
+    },
+    "3": {
+      "item": "rks_mobs:purple_crystal"
+    },
+    "4": {
+      "item": "rks_mobs:rock_golem_heart"
+    },
+    "5": {
+      "item": "rks_mobs:purple_crystal"
+    },
+    "7": {
+      "item": "rks_mobs:purple_crystal"
+    }
+  },
+  "result": {
+    "item": "rks_mobs:crystal_blaster",
+    "count": 1
+  }
+}

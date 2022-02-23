@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rks_mobs:purple_crystal"
+    }
+  ],
+  "result": {
+    "item": "rks_mobs:crystal_dust",
+    "count": 16
+  }
+}
