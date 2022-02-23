@@ -1,0 +1,20 @@
+Êþº¾   < † net/mcreator/rksmobs/RksMobsMod   java/lang/Object   RksMobsMod.java #Lnet/minecraftforge/fml/common/Mod; value rks_mobs Nnet/minecraftforge/fmllegacy/network/simple/IndexedMessageCodec$MessageHandler  	 ?net/minecraftforge/fmllegacy/network/simple/IndexedMessageCodec  
+ MessageHandler 9net/minecraftforge/fmllegacy/network/NetworkEvent$Context   1net/minecraftforge/fmllegacy/network/NetworkEvent    Context %java/lang/invoke/MethodHandles$Lookup   java/lang/invoke/MethodHandles   Lookup LOGGER !Lorg/apache/logging/log4j/Logger; MODID Ljava/lang/String;  PROTOCOL_VERSION 1  PACKET_HANDLER ;Lnet/minecraftforge/fmllegacy/network/simple/SimpleChannel; 	messageID I <init> ()V $ %
+  & (net/mcreator/rksmobs/init/RksMobsModTabs  ( load * %
+ ) + this !Lnet/mcreator/rksmobs/RksMobsMod; addNetworkMessage o(Ljava/lang/Class;Ljava/util/function/BiConsumer;Ljava/util/function/Function;Ljava/util/function/BiConsumer;)VA<T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Ljava/util/function/BiConsumer<TT;Lnet/minecraft/network/FriendlyByteBuf;>;Ljava/util/function/Function<Lnet/minecraft/network/FriendlyByteBuf;TT;>;Ljava/util/function/BiConsumer<TT;Ljava/util/function/Supplier<Lnet/minecraftforge/fmllegacy/network/NetworkEvent$Context;>;>;)V   !	  2 " #	  4 9net/minecraftforge/fmllegacy/network/simple/SimpleChannel  6 registerMessage ¿(ILjava/lang/Class;Ljava/util/function/BiConsumer;Ljava/util/function/Function;Ljava/util/function/BiConsumer;)Lnet/minecraftforge/fmllegacy/network/simple/IndexedMessageCodec$MessageHandler; 8 9
+ 7 : 
+messageType Ljava/lang/Class<TT;>; Ljava/lang/Class;  encoder KLjava/util/function/BiConsumer<TT;Lnet/minecraft/network/FriendlyByteBuf;>; Ljava/util/function/BiConsumer;  decoder ILjava/util/function/Function<Lnet/minecraft/network/FriendlyByteBuf;TT;>; Ljava/util/function/Function; messageConsumer ~Ljava/util/function/BiConsumer<TT;Ljava/util/function/Supplier<Lnet/minecraftforge/fmllegacy/network/NetworkEvent$Context;>;>; lambda$static$0 ()Ljava/lang/String; <clinit> #org/apache/logging/log4j/LogManager  J 	getLogger 4(Ljava/lang/Class;)Lorg/apache/logging/log4j/Logger; L M
+ K N  	  P (net/minecraft/resources/ResourceLocation  R '(Ljava/lang/String;Ljava/lang/String;)V $ T
+ S U ()Ljava/lang/Object; W G H
+  Y Z H "java/lang/invoke/LambdaMetafactory  ] 
+metafactory Ì(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite; _ `
+ ^ a b get ()Ljava/util/function/Supplier; d e   f (Ljava/lang/Object;)Z h java/lang/String  j equals l h
+ k m n (Ljava/lang/String;)Z p test 2(Ljava/lang/String;)Ljava/util/function/Predicate; r s  t 4net/minecraftforge/fmllegacy/network/NetworkRegistry  v newSimpleChannel À(Lnet/minecraft/resources/ResourceLocation;Ljava/util/function/Supplier;Ljava/util/function/Predicate;Ljava/util/function/Predicate;)Lnet/minecraftforge/fmllegacy/network/simple/SimpleChannel; x y
+ w z 
+ConstantValue Code LineNumberTable LocalVariableTable LocalVariableTypeTable 	Signature InnerClasses 
+SourceFile RuntimeVisibleAnnotations BootstrapMethods !               |         |        !   
+ " #     $ %  }   :     *· '¸ ,±    ~       *  +   ,         - .   	 / 0  }   —     ² 3² 5*+,-¶ ;W² 5`³ 5±    ~       0  1  2    *     < >      ? A     B D     E A  €   *     < =      ? @     B C     E F      1
+ G H  }         °    ~       &  I %  }   Q      1¸ O³ Q» SY· Vº g  º u  º u  ¸ {³ 3³ 5±    ~       #  & , (  ‚     
+  
+      	     ƒ     „   
+     s  …     c  X [ \ c  i o q
