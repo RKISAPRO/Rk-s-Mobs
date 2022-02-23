@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "rks_mobs:tiger_fur"
+    },
+    "1": {
+      "item": "rks_mobs:tiger_fur"
+    },
+    "2": {
+      "item": "rks_mobs:tiger_fur"
+    },
+    "3": {
+      "item": "rks_mobs:tiger_fur"
+    },
+    "5": {
+      "item": "rks_mobs:tiger_fur"
+    },
+    "6": {
+      "item": "rks_mobs:tiger_fur"
+    },
+    "8": {
+      "item": "rks_mobs:tiger_fur"
+    }
+  },
+  "result": {
+    "item": "rks_mobs:tigerarmor_leggings",
+    "count": 1
+  }
+}

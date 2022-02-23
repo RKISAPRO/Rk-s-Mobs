@@ -1,0 +1,21 @@
+{
+  "entity.rks_mobs.penguin": "Penguin",
+  "itemGroup.tabrks_mobs": "RK\u0027s Mobs",
+  "entity.rks_mobs.rock_golem": "Rock Golem",
+  "entity.rks_mobs.crystal_turtle": "Crystal Turtle",
+  "biome.rks_mobs.green_forest": "Green Forest",
+  "item.rks_mobs.crystal_turtle_spawn_egg": "Crystal Turtle Spawn Egg",
+  "item.rks_mobs.purple_crystal": "Purple Crystal",
+  "item.rks_mobs.rock_golem_heart": "Rock Golem Heart",
+  "item.rks_mobs.tiger_spawn_egg": "Tiger Spawn Egg",
+  "item.rks_mobs.crystal_blaster": "Crystal Blaster",
+  "item.rks_mobs.tigerarmor_chestplate": "Tiger Chestplate",
+  "entity.rks_mobs.tiger": "Tiger",
+  "item.rks_mobs.tigerarmor_boots": "Tiger Boots",
+  "item.rks_mobs.tigerarmor_leggings": "Tiger Leggings",
+  "item.rks_mobs.penguin_spawn_egg": "Penguin Spawn Egg",
+  "item.rks_mobs.rock_golem_spawn_egg": "Rock Golem Spawn Egg",
+  "item.rks_mobs.crystal_dust": "Crystal Dust",
+  "item.rks_mobs.tiger_fur": "Tiger Fur",
+  "item.rks_mobs.tigerarmor_helmet": "Tiger Helmet"
+}
