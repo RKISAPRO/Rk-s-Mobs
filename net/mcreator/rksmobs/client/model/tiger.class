@@ -1,0 +1,116 @@
+Êþº¾   < ç 'net/mcreator/rksmobs/client/model/tiger   T<T:Lnet/minecraft/world/entity/Entity;>Lnet/minecraft/client/model/EntityModel<TT;>; &net/minecraft/client/model/EntityModel   
+tiger.java LAYER_LOCATION 4Lnet/minecraft/client/model/geom/ModelLayerLocation; Head +Lnet/minecraft/client/model/geom/ModelPart; Body Front_Left_Foot Front_Right_Foot Back_Left_Foot Back_Right_Foot Tail <init> .(Lnet/minecraft/client/model/geom/ModelPart;)V ()V  
+   	 )net/minecraft/client/model/geom/ModelPart   	m_171324_ ?(Ljava/lang/String;)Lnet/minecraft/client/model/geom/ModelPart;  
+   	 
+	   
+ 
+ 
+	      
+	  # 
+ 
+ 
+	  &   
+	  )   
+	  ,   
+	  / this .Lnet/mcreator/rksmobs/client/model/tiger<TT;>; )Lnet/mcreator/rksmobs/client/model/tiger; root createBodyLayer <()Lnet/minecraft/client/model/geom/builders/LayerDefinition; 7net/minecraft/client/model/geom/builders/MeshDefinition  7
+ 8  	m_171576_ ;()Lnet/minecraft/client/model/geom/builders/PartDefinition; : ;
+ 8 < 8net/minecraft/client/model/geom/builders/CubeListBuilder  > 	m_171558_ <()Lnet/minecraft/client/model/geom/builders/CubeListBuilder; @ A
+ ? B 	m_171514_ >(II)Lnet/minecraft/client/model/geom/builders/CubeListBuilder; D E
+ ? FÀÀ  À@  A@  @à   8net/minecraft/client/model/geom/builders/CubeDeformation  L (F)V  N
+ M O 	m_171488_ |(FFFFFFLnet/minecraft/client/model/geom/builders/CubeDeformation;)Lnet/minecraft/client/model/geom/builders/CubeListBuilder; Q R
+ ? S¿€  @€  @À  A  Á€  @Iù (net/minecraft/client/model/geom/PartPose  [ 	m_171423_ 2(FFFFFF)Lnet/minecraft/client/model/geom/PartPose; ] ^
+ \ _ 7net/minecraft/client/model/geom/builders/PartDefinition  a 	m_171599_ ±(Ljava/lang/String;Lnet/minecraft/client/model/geom/builders/CubeListBuilder;Lnet/minecraft/client/model/geom/PartPose;)Lnet/minecraft/client/model/geom/builders/PartDefinition; c d
+ b e 
+left_ear_r1 gA  Á˜  Ap  ¾Éù¿ÙÑN right_ear_r1 nAˆ  Á¥  ¾LÌÍ>Éù 	m_171419_ /(FFF)Lnet/minecraft/client/model/geom/PartPose; t u
+ \ v  Body_r1 xÀà  ÁP  A`  AÐ  ¿À  @@  A   @°  Á8  À   ÀÐ  ÁH  @  A8  À   A0  ¾ÊÀƒÀÙ…A   AVA\Â tail3_r1 Á‹33ÁW™šAi©ü@Æzá>_oÒ tail2_r1 –AÃ™šÁ‘  Á   @ÿG®A˜æf¿–Ëû 8net/minecraft/client/model/geom/builders/LayerDefinition  ž 	m_171565_ w(Lnet/minecraft/client/model/geom/builders/MeshDefinition;II)Lnet/minecraft/client/model/geom/builders/LayerDefinition;   ¡
+ Ÿ ¢ meshdefinition 9Lnet/minecraft/client/model/geom/builders/MeshDefinition; partdefinition 9Lnet/minecraft/client/model/geom/builders/PartDefinition;  m_7695_ X(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V 	m_104301_ T(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;II)V ª «
+  ¬ 	poseStack %Lcom/mojang/blaze3d/vertex/PoseStack; buffer *Lcom/mojang/blaze3d/vertex/VertexConsumer; 
+packedLight I 
+packedOverlay red F green blue alpha  m_6973_ +(Lnet/minecraft/world/entity/Entity;FFFFF)V 
+(TT;FFFFF)V net/minecraft/util/Mth  ½ m_14089_ (F)F ¿ À
+ ¾ Á 	f_104203_ Ã ¶	  Ä entity TT; #Lnet/minecraft/world/entity/Entity; 	limbSwing limbSwingAmount 
+ageInTicks 
+netHeadYaw 	headPitch <clinit> 2net/minecraft/client/model/geom/ModelLayerLocation  Ï (net/minecraft/resources/ResourceLocation  Ñ rks_mobs Ó tiger Õ '(Ljava/lang/String;Ljava/lang/String;)V  ×
+ Ò Ø main Ú ?(Lnet/minecraft/resources/ResourceLocation;Ljava/lang/String;)V  Ü
+ Ð Ý   	  ß Code LineNumberTable LocalVariableTable LocalVariableTypeTable 	Signature 
+SourceFile !             	 
+    
+ 
+     
+    
+ 
+     
+     
+     
+        á   ±     K*· *+¶ µ *+¶ µ !*+"¶ µ $*+%¶ µ '*+(¶ µ **++¶ µ -*+.¶ µ 0±    â   & 	   "  #  $  % " & , ' 6 ( @ ) J * ã       K 1 3     K 4 
+  ä       K 1 2   	 5 6  á  æ    z» 8Y· 9K*¶ =L+¸ C#¶ GHIIJKK» MY
+· P¶ T
+¶ GIUVWVV» MY
+· P¶ T
+XY
+Z
+¸ `¶ fM,h¸ C¶ GijH
+
+» MY
+· P¶ T
+kYlm
+¸ `¶ fN,o¸ C ¶ Gpqr
+
+» MY
+· P¶ T
+kYsm
+¸ `¶ f:+¸ C
+X
+¸ w¶ f:y¸ C¶ Gzj{|X}» MY
+· P¶ T
+k
+
+Z
+¸ `¶ f:+"¸ C1¶ G~
+~€» MY
+· P¶ T|‚
+Z
+¸ `¶ f: +%¸ C#0¶ Gƒ
+ƒ€» MY
+· P¶ T„|…
+Z
+¸ `¶ f:+(¸ C/-¶ Gƒ
+~€» MY
+· P¶ T†|‡
+Z
+¸ `¶ f:	++¸ C&#¶ Gˆ
+ˆ€» MY
+· P¶ TH|‰
+Z
+¸ `¶ f:
++.¸ C¶ GUŠ‹
+
+Œ» MY
+· P¶ T
+Ž
+Z
+¸ `¶ f:
+
+¸ C¶ GU‘’
+
+V» MY
+· P¶ T
+“”•
+
+¸ `¶ f:
+—¸ C¶ GK˜™
+K
+» MY
+· P¶ Tš›œ
+
+¸ `¶ f:
+* € €¸ £°    â   Æ 1   -  . 
+ /  0 J 1 V 2 Y / ] 3 ` 4 † 5 ‰ 3  6  7 ¶ 8 ¹ 6 ¾ 9 Ð : Ô ; û < þ : = >/ ?2 =7 @: Ad Bg @l Co D™ Eœ C¡ F¤ GÎ HÑ FÖ IÙ Jÿ K I  L
+ M2 N5 L: O> Pg Qj Oo R ã   Ž  r ¤ ¥   
+m ¦ §  ] 	 §  í g §  ¾¼ n §  Ðª 
+ § w x § 7C  §  l 
+ § ¡ Ù  § 	Ö ¤  § 
+  s  § 
+: @  § o 
+ – § 
+  ¨ ©  á   ý  	   U*´ +,¶ ­*´ !+,¶ ­*´ $+,¶ ­*´ '+,¶ ­*´ *+,¶ ­*´ -+,¶ ­*´ 0+,¶ ­±    â   "    X  Y  Z $ [ 0 \ < ] H ^ T _ ã   \ 	   U 1 3     U ® ¯    U ° ±    U ² ³    U ´ ³    U µ ¶    U · ¶    U ¸ ¶     U ¹ ¶  ä       U 1 2    º »  á   Ù      G*´ *$j¸ ÂUj%jµ Å*´ '$j¸ Âj%jµ Å*´ -$j¸ Âj%jµ Å*´ $$j¸ ÂUj%jµ Å±    â       b  c # d 4 e F f ã   H     G 1 3     G Æ È    G É ¶    G Ê ¶    G Ë ¶    G Ì ¶    G Í ¶  ä       G 1 2     G Æ Ç  å    ¼  Î   á   0      » ÐY» ÒYÔÖ· ÙÛ· Þ³ à±    â         å     æ    
